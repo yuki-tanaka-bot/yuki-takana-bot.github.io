@@ -1,4 +1,4 @@
-$.ajax({
+/*$.ajax({
 	url: "https://top.gg/api/bots/882648343564652544/stats",
 	method: "GET",
 	dataType: "json",
@@ -13,7 +13,7 @@ $.ajax({
 	error: function (jqXHR, textStatus, errorThrown) {
 		alert(errorThrown);
 	}
-});
+});*/
 
 $('.documentation').focus();
 

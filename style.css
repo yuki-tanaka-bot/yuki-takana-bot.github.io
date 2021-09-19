@@ -1,5 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/comic-andy');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face {
+    font-family: 'comic_andyregular';
+    src: url('./font/comic_andy-webfont.woff2') format('woff2'),
+         url('./font/comic_andy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 * {
     padding: 0;
@@ -34,7 +41,7 @@ body {
 }
 
 .logo {
-    font-family: 'comic andy', sans-serif !important;
+    font-family: 'comic_andyregular', sans-serif !important;
     font-size: 10rem !important;
     color: white !important;
     font-weight: 600 !important;
