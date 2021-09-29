@@ -35,6 +35,12 @@ body {
     height: 100% !important;
 }
 
+del {
+    font-style: normal !important;
+    text-decoration: none !important;
+    color: crimson
+}
+
 .btn-outline-light {
     border-width: 2px !important;
     font-weight: bold !important;
@@ -51,6 +57,10 @@ body {
     overflow-y: scroll;
 }
 
+.documentation b {
+    color: green;
+}
+
 .btn-lang {
     cursor: pointer;
 }
@@ -59,7 +69,14 @@ body {
     width: 20% !important;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 350px;
+}
+
+.server-count {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    font-size: 25px;
 }
 
 /* Portrait tablets and medium desktops */
@@ -70,6 +87,8 @@ body {
 /* Portrait tablets and small desktops */
 @media screen and (max-width: 991px) {
     .yuki {display:none}
+
+    .server-count {display: none;}
 
     .logo {
         font-size: 7rem !important;
@@ -96,10 +115,6 @@ body {
 
     .links {
         justify-content: center !important;
-    }
-
-    .server-count {
-        text-align: center !important;
     }
 }
 

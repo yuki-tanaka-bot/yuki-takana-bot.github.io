@@ -6,38 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yuki Tanaka - best music Discord bot</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/icons/favicon.png" type="image/png">
 </head>
 <body class="d-flex flex-row" style="background-color: transparent;">
     <div class="container documentation p-3 px-5 m-3 bg-light rounded">
-        <h1 class="text-center"><img class="btn-lang" id="btn-en" src="img/icons/usa.png"/> <img class="btn-lang" id="btn-ru" src="img/icons/russia.png"/> <img class="btn-lang" id="btn-esp" src="img/icons/esper.png"/> <span class="doc-title">Documentation</span></h1>
+        <h1 class="text-center">
+            <span class="doc-title">Documentation</span>
+            <img class="btn-lang" title="Translate in English" id="btn-en" src="img/icons/usa.png"/>
+            <img class="btn-lang" title="Перевести на Русский" id="btn-ru" src="img/icons/russia.png"/>
+            <img class="btn-lang" title="Ins Deutsche übersetzen" id="btn-de" src="img/icons/german.png"/>
+        </h1>
         <div class="doc-content">
-            1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>
-            1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>
-            1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>
-            1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>
-            1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>
+            
         </div>
     </div>
     <div class="container p-0 px-5 header-main mb-auto">
-        <h1 class="logo text-right text-nowrap">Yuki Tanaka</h1>
+        <h1 class="logo text-right text-nowrap m-0">Yuki Tanaka</h1>
         <div class="container d-flex buttons-group justify-content-end">
             <div class="container d-flex flex-nowrap justify-content-end align-items-center links">
-                <a class="m-1" href="http://"><img width=30 src="img/icons/topgg.svg" alt="top.gg"></a>
-                <a class="m-1" href="http://"><img width=30 src="img/icons/botsgg.svg" alt="bots.gg"></a>
-                <a class="m-1" href="http://"><img width=30 src="img/icons/consteagle.svg" alt="consteagle.com"></a>
+                <a class="m-1" title="TopGG" href="http://"><img width=30 src="img/icons/topgg.svg" alt="top.gg"></a>
+                <a class="m-1" title="Bots GG" href="http://"><img width=30 src="img/icons/botsgg.svg" alt="bots.gg"></a>
+                <a class="m-1" title="Consteagle" href="http://"><img width=30 src="img/icons/consteagle.svg" alt="consteagle.com"></a>
             </div>
-            <a class="btn btn-outline-light m-2 px-5" href="https://discord.com/api/oauth2/authorize?client_id=882648343564652544&permissions=137475992896&scope=bot" target="_blank">Invite</a>
-            <a class="btn btn-outline-light m-2 px-5" href="https://www.donationalerts.com/r/m4ks1mka" target="_blank">Donate</a>
+            <div class="d-flex flex-column">
+                <a class="btn btn-outline-light m-2 px-5" href="https://discord.com/api/oauth2/authorize?client_id=882648343564652544&permissions=139892620736&scope=bot%20applications.commands" target="_blank">Invite</a>
+                <a class="btn btn-outline-light m-2 px-0" href="#" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            </div>
+            <div class="d-flex flex-column">
+                <a class="btn btn-outline-light m-2 px-5" href="https://www.donationalerts.com/r/m4ks1mka" target="_blank">Donate</a>
+                <a class="btn btn-outline-light m-2 px-0" href="https://discord.gg/5MQxVBZRNB" target="_blank">Our Server</a>
+            </div>
         </div>
-        <!--<h2 class="server-count m-2 mx-5 text-light text-right align-middle" style="font-size: 25px;"></h2>-->
         <img class=yuki src="img/yuki.png">
     </div>
 
-    <script src = "http://www.myersdaily.org/joseph/javascript/md5.js"></script>
+    <div class="server-count text-dark bg-light rounded p-4">Server count: <b>50+</b></div>
+
+    <script src="http://www.myersdaily.org/joseph/javascript/md5.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
